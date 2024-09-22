@@ -141,9 +141,14 @@ namespace BasicProject.Controllers
         {
             try
             {
+                var users = User.FindFirst("UserId")?.Value;
+                int userId = int.Parse(users);
+                var user = await ptpDevContext.Users.FindAsync(userId);
+
+
                 var data = await ptpDevContext.Users.ToListAsync();
 
-                SetResponseObject(200, "Success", data);
+                SetResponseObject(200, "Success", user);
 
                 return Ok(responseObject);
             }
