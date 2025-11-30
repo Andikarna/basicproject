@@ -1,1 +1,91 @@
-.vs/*
+# =========================
+# Visual Studio / IDE files
+# =========================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+# Rider IDE
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# =========================
+# Build & output folders
+# =========================
+bin/
+obj/
+out/
+TestResults/
+*.builds
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+packages/
+# NuGet v3's project.json files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# =========================
+# ASP.NET / Web
+# =========================
+wwwroot/lib/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# User-specific files
+# =========================
+*.rsuser
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# =========================
+# Mac / Linux
+# =========================
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# =========================
+# Logs
+# =========================
+*.log
+*.tlog
+*.vsmdi
+
+# =========================
+# Temporary / cache files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.lock
+
+# =========================
+# JetBrains Rider / Resharper
+# =========================
+.idea/
+*.DotSettings.user
+*.ReSharper
+_ReSharper*/
+*.ReSharper.*
+*.DotSettings
